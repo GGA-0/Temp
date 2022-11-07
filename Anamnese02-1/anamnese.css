@@ -32,14 +32,33 @@
 
 main{
     height: fit-content;
+    background-color: #616161;
+}
+.form-group{
+    text-align: center;
 }
 form{
     margin-bottom: 5vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 textarea{
     height: 30vh;
     width: 100%;
     resize: none;
+}
+#divButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4vh 0;
+}
+#divButton button{
+    padding: auto;
+    height: 30px;
+    width: 30px;
+    margin: 5px;
 }
 
 .container{
@@ -59,8 +78,10 @@ textarea{
     width: 30vh
 }
 
-.containerAnamnese{
+#formulario{
     display: flex;
+    justify-content: center;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
