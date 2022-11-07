@@ -1,0 +1,62 @@
+<?php  
+    include('../php/verifica_login.php');
+    include('../php/verifica_dados.php');
+?>
+
+<!DOCTYPE html>
+<html lang="pt-br" class="anti__bug">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anamnese</title>
+    <link rel="stylesheet" href="anamnese.css">
+    <link rel="icon" type="image/x-icon" href="../assets/favicon.ico">
+    <style>
+        input{
+            width: 100%;
+        }
+    </style>
+</head>
+<body class="body__geral anti__bug" style="margin-top: -20px">
+
+    <main class="anti__bug">
+        <nav id="menu-h">
+            <ul>
+                <li><a href="home.php">Home</a></li>
+                <li><a href="#">Quem somos</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="Entrar.php">Entrar</a></li>
+
+            </ul>
+        </nav>
+        <div class="containerAnamnese">
+            
+            <div style="width: 65%; text-align: center;">
+                <h1 class="heading__primario" style="text-indent: 2em; text-align: left;">Anamnese</h1>
+                <form method="post" action="processa.php">
+
+                    <p class="recuo" style="text-align: left;">Patologias:</p>
+                    <textarea name="Patologias" id="" cols="30" rows="10"></textarea>
+
+                    <p class="recuo" style="text-align: left;">Sintomas:</p>
+                    <textarea name="Sintomas" id="" cols="30" rows="10"></textarea>
+
+                    <p class="recuo" style="text-align: left;">Atividades físicas:</p>
+                    <textarea name="Atividades Físicas" id="" cols="30" rows="10"></textarea>
+
+                    <p class="recuo" style="text-align: left;">Medicação:</p>
+                    <textarea name="Medicação" id="" cols="30" rows="10"></textarea>
+
+                    <p></p>
+                    <br>
+                    
+                    <input class="button__anamnese" type="submit" value="Salvar" >
+                    <input class="button__anamnese" type="reset" value="limpar" >
+                </form>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
