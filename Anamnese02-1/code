@@ -6,3 +6,10 @@
 
                     <p class="recuo" style="text-align: left;">Medicação:</p>
                     <textarea name="Medicação" id="" cols="30" rows="10"></textarea> -->
+
+
+
+
+                    Cadastrar vários registros no banco de dados, adicionar e remover campos com PHP 
+                    
+                    minuto 23

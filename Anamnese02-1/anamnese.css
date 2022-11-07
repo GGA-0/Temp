@@ -45,7 +45,7 @@ form{
 }
 textarea{
     height: 30vh;
-    width: 100%;
+    width: 70vw;
     resize: none;
 }
 #divButton{
@@ -84,5 +84,6 @@ textarea{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100vw;
 }
 
