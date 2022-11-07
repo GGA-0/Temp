@@ -33,6 +33,9 @@
 main{
     height: fit-content;
 }
+form{
+    margin-bottom: 5vh;
+}
 textarea{
     height: 30vh;
     width: 100%;
